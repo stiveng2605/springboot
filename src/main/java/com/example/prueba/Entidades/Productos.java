@@ -1,20 +1,21 @@
-package com.example.prueba.Entidades;
+package com.example.demo.Entidades;
+
 
 public class Productos {
     private int codigo;
     private String nombre;
-    private double precio;
+    private Double precio;
     private int cantidad;
     private double total;
-    private String categoria;
+    private String Categoria;
 
-    public Productos(int codigo, String nombre, double precio, int cantidad, double total, String categoria) {
+    public Productos(int codigo, String nombre, Double precio, int cantidad, double total, String categoria) {
         this.codigo = codigo;
         this.nombre = nombre;
         this.precio = precio;
         this.cantidad = cantidad;
         this.total = total;
-        this.categoria = categoria;
+        Categoria = categoria;
     }
 
     public int getCodigo() {
@@ -33,11 +34,11 @@ public class Productos {
         this.nombre = nombre;
     }
 
-    public double getPrecio() {
+    public Double getPrecio() {
         return precio;
     }
 
-    public void setPrecio(double precio) {
+    public void setPrecio(Double precio) {
         this.precio = precio;
     }
 
@@ -58,10 +59,10 @@ public class Productos {
     }
 
     public String getCategoria() {
-        return categoria;
+        return Categoria;
     }
 
     public void setCategoria(String categoria) {
-        this.categoria = categoria;
+        Categoria = categoria;
     }
 }

@@ -1,10 +1,8 @@
-package com.example.prueba.Entidades;
+package com.example.demo.Entidades;
 
 import java.time.LocalDate;
 
 public class Usuario {
-
-
     private int id;
     private String nombre;
     private String pais;
@@ -18,6 +16,7 @@ public class Usuario {
         this.fecha = fecha;
         this.correo = correo;
     }
+
 
     public int getId() {
         return id;
