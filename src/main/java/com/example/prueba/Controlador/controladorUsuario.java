@@ -20,5 +20,4 @@ public class controladorUsuario {
         return servicio.agregarUsuario(usuario);
     }
 
-    h
 }
