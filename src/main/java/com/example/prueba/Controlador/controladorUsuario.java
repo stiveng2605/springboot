@@ -19,4 +19,6 @@ public class controladorUsuario {
     public String agregar(@RequestBody Usuario usuario){
         return servicio.agregarUsuario(usuario);
     }
+
+    h
 }
