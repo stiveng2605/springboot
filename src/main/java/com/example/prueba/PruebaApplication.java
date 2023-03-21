@@ -10,6 +10,5 @@ public class PruebaApplication {
 		SpringApplication.run(PruebaApplication.class, args);
 	}
 
-	alert"hola2
 
 }
